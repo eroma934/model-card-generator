@@ -1,0 +1,2 @@
+
+The following is a Streamlit app to generate Model Cards. It aims to provide a simple interface to build a new model card from scratch. The app is based on the [Huggingface Model Card Writing Tool](https://huggingface.co/spaces/huggingface/Model_Cards_Writing_Tool) but is meant to work on your servers.

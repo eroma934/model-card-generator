@@ -19,27 +19,23 @@
 - [Training Details](#training-details)
   - [Training Data](#training-data)
   - [Training Procedure](#training-procedure)
-    - [Preprocessing](#preprocessing)
-    - [Speeds, Sizes, Times](#speeds-sizes-times)
+    - [Data Collection & Preprocessing](#preprocessing)
+    - [Training Time](#speeds-sizes-times)
 - [Evaluation](#evaluation)
   - [Testing Data, Factors & Metrics](#testing-data-factors--metrics)
     - [Testing Data](#testing-data)
-    - [Factors](#factors)
     - [Metrics](#metrics)
   - [Results](#results)
-- [Model Examination](#model-examination)
-- [Environmental Impact](#environmental-impact)
-- [Technical Specifications [optional]](#technical-specifications-optional)
+- [Technical Specifications](#technical-specifications-optional)
   - [Model Architecture and Objective](#model-architecture-and-objective)
   - [Compute Infrastructure](#compute-infrastructure)
     - [Hardware](#hardware)
     - [Software](#software)
+- [How to Get Started with the Model](#how-to-get-started-with-the-model)
 - [Citation](#citation)
 - [Glossary [optional]](#glossary-optional)
 - [More Information [optional]](#more-information-optional)
-- [Model Card Authors [optional]](#model-card-authors-optional)
-- [Model Card Contact](#model-card-contact)
-- [How to Get Started with the Model](#how-to-get-started-with-the-model)
+
 
 
 # Model Details
@@ -47,7 +43,7 @@
 ## Model Description
 
 <!--> Provide a longer summary of what this model is. <!-->
-{{ the_model_description | default("More information needed", true)}}
+{{ model_description | default("More information needed", true)}}
 
 - **Developed by:** {{ developers | default("More information needed", true)}}
 - **Shared by [Optional]:** {{ shared_by | default("More information needed", true)}}

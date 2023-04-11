@@ -11,7 +11,7 @@ with open("./static/model-tags.json") as f:
 
 def main():
     
-    st.markdown('# Technical Specifications [optional]')
+    st.markdown('# Technical Specifications')
     st.write("Provide an overview of any additional technical specifications for this model")
     left, right = st.columns([2,4])
     
@@ -24,7 +24,7 @@ def main():
         st.write("\n")
         st.write("\n")
         st.write("\n")
-        st.markdown('### Compute Infrastructure:')
+        st.markdown('#### Compute Infrastructure:')
         st.write("\n")
         st.write("\n")
         st.write("\n")
@@ -38,7 +38,7 @@ def main():
         st.write("\n")
         st.write("\n")
         st.write("\n")
-        st.markdown('##### Software:')
+        st.markdown('##### Libraries:')
         
     with right:
         st.text_area(" ", key="model_specs")
@@ -48,6 +48,3 @@ def main():
          
 if __name__ == '__main__':
     main()
-    if "model_name" in st.session_state:
-        downloaded_file_name = st.session_state.model_name+'_'+'model_card.md'
-        st.sidebar.download_button(label = 'Download Model Card', data = '''this is a test''',file_name = downloaded_file_name, help = "The current model card will be downloaded as a markdown (.md) file")

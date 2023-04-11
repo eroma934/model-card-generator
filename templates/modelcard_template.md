@@ -2,9 +2,7 @@
 {{card_data}}
 ---
 
-# {{ model_id }}
-
-<!--> Provide a quick summary of what the model is/does. <!-->
+# {{ model_id }} Model Card
 
 #  Table of Contents
 
@@ -42,24 +40,27 @@
 
 ## Model Description
 
-<!--> Provide a longer summary of what this model is. <!-->
 {{ model_description | default("More information needed", true)}}
 
-- **Developed by:** {{ developers | default("More information needed", true)}}
-- **Shared by [Optional]:** {{ shared_by | default("More information needed", true)}}
-- **Model type:** Language model
-- **Language(s) (NLP):** {{ language | default("More information needed", true)}}
-- **License:** {{ license | default("More information needed", true)}}
-- **Related Models:** {{ related_models | join(', ') | default("More information needed", true)}} 
+|                          |                                                                  |
+|--------------------------|------------------------------------------------------------------|
+| **Developer(s)**         | {{ developers | default("More information needed", true)}}      |
+| **Model & Repo Links**   | {{"[GitHub Repo]({0})".format(repo_link) if repo_link }}          |
+| **Modality**             | {{ modality | default("More information needed", true)}}        |
+| **Task(s)**              | {{ task | default("More information needed", true)}}           |
+| **Learning Method**      | {{ learning_method | default("More information needed", true)}} |
+| **Algorithm Type**       | {{ algo_type | default("More information needed", true)}}       |
+
+## Related Models
+- **Related Models:**
 {{ "    -  [Parent Model]({0})".format(repo_link) if parent_model_link }}
-- **Resources for more information:** {{ more_resources | default("More information needed", true)}}
-{{ "    - [GitHub Repo]({0})".format(repo_link) if repo_link }}
+- **Resources for more information:**
 {{ "    - [Associated Paper]({0})".format(paper_link) if paper_link }}
 {{ "    - [Blog Post]({0})".format(blog_link) if blog_link }}
 
 # Uses
 
-<!--> Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. <!-->
+<!--> This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model. <!-->
 
 ## Direct Use
 
@@ -77,19 +78,13 @@
 
 <!--> This section addresses misuse, malicious use, and uses that the model will not work well for. <!-->
 
-{{ out_of_scope_use | default("More information needed", true)}}
+{{ oos_use | default("More information needed", true)}}
 
 # Bias, Risks, and Limitations
 
 <!--> This section is meant to convey both technical and sociotechnical limitations. <!-->
 
-{{ bias_risks_limitations | default("More information needed", true)}}
-
-## Recommendations
-
-<!--> This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. <!-->
-
-{{ bias_recommendations | default("Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recomendations.", true)}}
+{{ risks | default("More information needed", true)}}
 
 # Training Details
 
@@ -105,13 +100,13 @@
 
 ### Preprocessing
 
-{{ preprocessing | default("More information needed", true)}}
+{{ model_preprocessing | default("More information needed", true)}}
 
-### Speeds, Sizes, Times
+### Training Time
 
 <!--> This section provides information about throughput, start/end time, checkpoint size if relevant, etc. <!-->
 
-{{ speeds_sizes_times | default("More information needed", true)}}
+{{ training_time | default("More information needed", true)}}
  
 # Evaluation
 
@@ -125,39 +120,22 @@
 
 {{ testing_data | default("More information needed", true)}}
 
-### Factors
-
-<!--> These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. <!-->
-
-{{ testing_factors | default("More information needed", true)}}
-
 ### Metrics
 
 <!--> These are the evaluation metrics being used, ideally with a description of why. <!-->
 
-{{ testing_metrics | default("More information needed", true)}}
+{{ metrics | default("More information needed", true)}}
 
 ## Results 
 
-{{ results | default("More information needed", true)}}
+{{ model_results | default("More information needed", true)}}
 
 # Model Examination
 
 {{ model_examination | default("More information needed", true)}}
 
-# Environmental Impact
 
-<!--> Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly <!-->
-
-Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
-
-- **Hardware Type:** {{ hardware | default("More information needed", true)}}
-- **Hours used:** {{ hours_used | default("More information needed", true)}}
-- **Cloud Provider:** {{ cloud_provider | default("More information needed", true)}}
-- **Compute Region:** {{ cloud_region | default("More information needed", true)}}
-- **Carbon Emitted:** {{ co2_emitted | default("More information needed", true)}}
-
-# Technical Specifications [optional]
+# Technical Specifications
 
 ## Model Architecture and Objective
 
@@ -175,7 +153,19 @@ Carbon emissions can be estimated using the [Machine Learning Impact calculator]
 
 {{ software | default("More information needed", true)}}
 
-# Citation
+# How to Get Started with the Model
+
+Use the code below to get started with the model.
+
+<details>
+<summary> Click to expand </summary>
+
+{{ how_to | default("More information needed", true)}}
+
+</details>
+<br>
+
+# Citation [optional]
 
 <!--> If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. <!-->
 
@@ -197,23 +187,11 @@ Carbon emissions can be estimated using the [Machine Learning Impact calculator]
 
 {{ more_information | default("More information needed", true)}}
 
-# Model Card Authors [optional]
+## Model Card Authors
 
 {{ model_card_authors | default("More information needed", true)}}
 
-# Model Card Contact
+## Model Card Contact
 
 {{ model_card_contact | default("More information needed", true)}}
-
-# How to Get Started with the Model
-
-Use the code below to get started with the model.
-
-<details>
-<summary> Click to expand </summary>
-
-{{ get_started_code | default("More information needed", true)}}
-
-</details>
-
 

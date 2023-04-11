@@ -11,7 +11,7 @@ def is_float(value):
 ## Handles parsing jinja variable templates
 def parse_into_jinja_markdown():
     env = Environment(loader=FileSystemLoader('.'), autoescape=True)
-    temp = env.get_template('modelcard_template.md')
+    temp = env.get_template('templates/modelcard_template.md')
     # to add: 
     # - parent model
     # to fix:

@@ -4,8 +4,10 @@ for k, v in st.session_state.items():
     st.session_state[k] = v
 
 def main():
-    st.markdown('# Bias, Risks, and Limitations')
-    st.text_area("What are the known or foreseeable issues stemming from this model? Use this section to convey both technical and sociotechnical limitations",help="Provide an overview of the possible Limitations and Risks that may be associated with this model", key="risks")
+
+    st.markdown('# Glossary [optional]')
+    st.text_area("Terms used in the model card that need to be clearly defined in order to be accessible across audiences go here.",height = 200, key="glossary")
+   
 
 if __name__ == '__main__':
     main()

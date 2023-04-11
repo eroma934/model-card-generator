@@ -1,10 +1,10 @@
 import streamlit as st
-from persist import load_widget_state
+from utilities.markdown_utils import parse_into_jinja_markdown as pj
 
-global variable_output
+for k, v in st.session_state.items():
+    st.session_state[k] = v
 
-
-def cs_body():
+def main():
     learning_method_list = ["Supervised", "Unsupervised", "Rule-Based System", "Reinforcement Learning", "Hybrid"]
     algorithm_type = ["Neural Network", "Traditional Algorithm"]
     modality_list = ["Natural Language", "Computer Vision", "Audio", "Multimodal", "Tabular"]
@@ -12,8 +12,8 @@ def cs_body():
     cv_tasks = ["Image Classification", "Object Detection", "Event Detection", "Navigation", "Generative", "Image Restoration", "Augmented/virtual reality"]
     audio_tasks = ["Audio Classification", "Voice Forensics", "Speech-to-Text", "Audio-to-Audio"]
     tabular_tasks = ["Tabular Classification", "Tabular Regression"]
-
-    #st.set_page_config(layout="wide") ## not yet supported on the hub
+        
+    # #st.set_page_config(layout="wide") ## not yet supported on the hub
     st.markdown('## Model Details')
     st.markdown('### Model Description')
     st.text_area("Provide a 1-2 sentence summary of what this model is.", key="model_description", help="The model description provides basic details about the model. This includes the architecture, version, if it was introduced in a paper, if an original implementation is available, the author, and general information about the model. Any copyright should be attributed here. General information about training procedures, parameters, and important disclaimers can also be mentioned in this section.")
@@ -28,16 +28,16 @@ def cs_body():
             st.write("\n")
             st.write("\n")
             st.write("\n")
-            st.markdown('### Shared By [optional]:')
+            st.markdown('### Model Card Author(s):')
             st.write("\n")
             st.write("\n")
             st.write("\n")
             st.markdown('### Model Type:')
             
         with right:
-            st.text_input("",help="List the people who built the model.", key="model_developers")
+            st.text_input(" ",help="List the people who built the model.", key="model_developers")
             st.write("\n")
-            st.text_input("",help="List the people/organization making the model available online.", key="shared_by")
+            st.text_input(" ",help="List the author(s) of the model card documentation.", key="author")
         
     with st.container():
         with sub_col1:
@@ -55,13 +55,9 @@ def cs_body():
             elif st.session_state["modality"] == "Tabular":
                 st.multiselect("Task",[""]+tabular_tasks, key="task")
 
-def main():
-    cs_body()
-
 
 if __name__ == '__main__':
-    load_widget_state()
     main()
     if "model_name" in st.session_state:
         downloaded_file_name = st.session_state.model_name+'_'+'model_card.md'
-        st.sidebar.download_button(label = 'Download Model Card', data = '''this is a test''',file_name = downloaded_file_name, help = "The current model card will be downloaded as a markdown (.md) file")
+        st.sidebar.download_button(label = 'Download Model Card', data =  pj(),file_name = downloaded_file_name, help = "The current model card will be downloaded as a markdown (.md) file")

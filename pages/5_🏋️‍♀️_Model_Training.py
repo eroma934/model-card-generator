@@ -1,15 +1,10 @@
 import streamlit as st
-from persist import persist, load_widget_state
 
-global variable_output
+for k, v in st.session_state.items():
+    st.session_state[k] = v
+  
 
 def main():
-  
-    cs_body()
-  
-
-def cs_body():
-    
     st.markdown('# Training Details')
     st.write("Provide an overview of the Training Data and Training Procedure for this model")
     left, middle, right = st.columns([2,1,7])
@@ -47,7 +42,7 @@ def cs_body():
         st.write("\n")
         st.write("\n")
        
-        st.markdown('#### Preprocessing:')
+        st.markdown('#### Preprocessing Steps:')
         st.write("\n")
         st.write("\n")
         st.write("\n")
@@ -55,12 +50,12 @@ def cs_body():
         st.write("\n")
         st.write("\n")
         st.write("\n")
-        st.markdown('#### Speeds, Sizes, Time:')
+        st.markdown('#### Training Time:')
         
     with right:
         #soutput_jinja = parse_into_jinja_markdown()
         
-        st.text_area("", help ="Ideally this links to a Dataset Card.", key=persist("training_Data"))
+        st.text_area(" ", help ="Ideally this links to a Dataset Card.", key="training_data")
         #st.write("\n")
         st.write("\n")
         st.write("\n")
@@ -74,8 +69,8 @@ def cs_body():
         st.write("\n")
         st.write("\n")
         
-        st.text_area("",key=persist("model_preprocessing"))
-        st.text_area("", help = "This section provides information about throughput, start/end time, checkpoint size if relevant, etc.", key=persist("Speeds_Sizes_Times"))
+        st.text_area(" ",key="model_preprocessing")
+        st.text_area(" ", help = "This section provides information about throughput, start/end time, checkpoint size if relevant, etc.", key="training_time")
    
    
    
@@ -83,5 +78,7 @@ def cs_body():
     
 
 if __name__ == '__main__':
-    load_widget_state()
     main()
+    if "model_name" in st.session_state:
+        downloaded_file_name = st.session_state.model_name+'_'+'model_card.md'
+        st.sidebar.download_button(label = 'Download Model Card', data = '''this is a test''',file_name = downloaded_file_name, help = "The current model card will be downloaded as a markdown (.md) file")

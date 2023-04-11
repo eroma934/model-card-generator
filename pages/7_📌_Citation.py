@@ -1,22 +1,13 @@
 import streamlit as st
-from persist import persist, load_widget_state
-from pathlib import Path
 
-
-
-global variable_output
+for k, v in st.session_state.items():
+    st.session_state[k] = v
 
 def main():
-    cs_body()
-
-def cs_body():
 
     st.markdown('# Citation')
     st.write("If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section")
     left, right = st.columns([2,4])
-    
-    #st.markdown('### Model Description')
-    
 
     with left: 
         st.write("\n")
@@ -32,17 +23,11 @@ def cs_body():
         
         
     with right:
-        
-        st.text_area("", key=persist("bibtex_citation"))
-        st.text_area("", key=persist("APA_citation"))
-        #st.write("\n")
-  
-   
-   
-    
-    
-    
+        st.text_area(" ", key="bibtex_citation")
+        st.text_area(" ", key="apa_citation")
 
 if __name__ == '__main__':
-    load_widget_state()
     main()
+    if "model_name" in st.session_state:
+        downloaded_file_name = st.session_state.model_name+'_'+'model_card.md'
+        st.sidebar.download_button(label = 'Download Model Card', data = '''this is a test''',file_name = downloaded_file_name, help = "The current model card will be downloaded as a markdown (.md) file")

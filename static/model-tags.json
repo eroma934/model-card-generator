@@ -1,0 +1,4010 @@
+{
+    "library": [
+        {
+            "id": "pytorch",
+            "label": "PyTorch",
+            "type": "library"
+        },
+        {
+            "id": "tf",
+            "label": "TensorFlow",
+            "type": "library"
+        },
+        {
+            "id": "jax",
+            "label": "JAX",
+            "type": "library"
+        },
+        {
+            "id": "transformers",
+            "label": "Transformers",
+            "type": "library"
+        },
+        {
+            "id": "tensorboard",
+            "label": "TensorBoard",
+            "type": "library"
+        },
+        {
+            "id": "stable-baselines3",
+            "label": "Stable-Baselines3",
+            "type": "library"
+        },
+        {
+            "id": "diffusers",
+            "label": "Diffusers",
+            "type": "library"
+        },
+        {
+            "id": "onnx",
+            "label": "ONNX",
+            "type": "library"
+        },
+        {
+            "id": "ml-agents",
+            "label": "ML-Agents",
+            "type": "library"
+        },
+        {
+            "id": "sentence-transformers",
+            "label": "Sentence Transformers",
+            "type": "library"
+        },
+        {
+            "id": "safetensors",
+            "label": "Safetensors",
+            "type": "library"
+        },
+        {
+            "id": "timm",
+            "label": "Timm",
+            "type": "library"
+        },
+        {
+            "id": "keras",
+            "label": "Keras",
+            "type": "library"
+        },
+        {
+            "id": "sample-factory",
+            "label": "Sample Factory",
+            "type": "library"
+        },
+        {
+            "id": "espnet",
+            "label": "ESPnet",
+            "type": "library"
+        },
+        {
+            "id": "spacy",
+            "label": "spaCy",
+            "type": "library"
+        },
+        {
+            "id": "adapter-transformers",
+            "label": "Adapter Transformers",
+            "type": "library"
+        },
+        {
+            "id": "fasttext",
+            "label": "fastText",
+            "type": "library"
+        },
+        {
+            "id": "rust",
+            "label": "Rust",
+            "type": "library"
+        },
+        {
+            "id": "sklearn",
+            "label": "Scikit-learn",
+            "type": "library"
+        },
+        {
+            "id": "fastai",
+            "label": "fastai",
+            "type": "library"
+        },
+        {
+            "id": "joblib",
+            "label": "Joblib",
+            "type": "library"
+        },
+        {
+            "id": "nemo",
+            "label": "NeMo",
+            "type": "library"
+        },
+        {
+            "id": "paddlepaddle",
+            "label": "PaddlePaddle",
+            "type": "library"
+        },
+        {
+            "id": "coreml",
+            "label": "Core ML",
+            "type": "library"
+        },
+        {
+            "id": "flair",
+            "label": "Flair",
+            "type": "library"
+        },
+        {
+            "id": "speechbrain",
+            "label": "speechbrain",
+            "type": "library"
+        },
+        {
+            "id": "optimum_graphcore",
+            "label": "Graphcore",
+            "type": "library"
+        },
+        {
+            "id": "fairseq",
+            "label": "Fairseq",
+            "type": "library"
+        },
+        {
+            "id": "stanza",
+            "label": "Stanza",
+            "type": "library"
+        },
+        {
+            "id": "paddlenlp",
+            "label": "PaddleNLP",
+            "type": "library"
+        },
+        {
+            "id": "openvino",
+            "label": "OpenVINO",
+            "type": "library"
+        },
+        {
+            "id": "open_clip",
+            "label": "OpenCLIP",
+            "type": "library"
+        },
+        {
+            "id": "tflite",
+            "label": "TF Lite",
+            "type": "library"
+        },
+        {
+            "id": "asteroid",
+            "label": "Asteroid",
+            "type": "library"
+        },
+        {
+            "id": "optimum_habana",
+            "label": "Habana",
+            "type": "library"
+        },
+        {
+            "id": "allennlp",
+            "label": "allenNLP",
+            "type": "library"
+        },
+        {
+            "id": "tensorflowtts",
+            "label": "TensorFlowTTS",
+            "type": "library"
+        },
+        {
+            "id": "pythae",
+            "label": "Pythae",
+            "type": "library"
+        },
+        {
+            "id": "pyannote-audio",
+            "label": "pyannote.audio",
+            "type": "library"
+        }
+    ],
+    "other": [
+        {
+            "id": "autotrain_compatible",
+            "label": "AutoTrain Compatible",
+            "type": "other"
+        },
+        {
+            "id": "model-index",
+            "label": "Eval Results",
+            "type": "other"
+        },
+        {
+            "id": "has_space",
+            "label": "Has a Space",
+            "type": "other"
+        },
+        {
+            "id": "co2_eq_emissions",
+            "label": "Carbon Emissions",
+            "type": "other"
+        }
+    ],
+    "license": [
+        {
+            "id": "license:apache-2.0",
+            "label": "apache-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:mit",
+            "label": "mit",
+            "type": "license"
+        },
+        {
+            "id": "license:creativeml-openrail-m",
+            "label": "creativeml-openrail-m",
+            "type": "license"
+        },
+        {
+            "id": "license:openrail",
+            "label": "openrail",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-4.0",
+            "label": "cc-by-4.0",
+            "type": "license"
+        },
+        {
+            "id": "license:other",
+            "label": "other",
+            "type": "license"
+        },
+        {
+            "id": "license:afl-3.0",
+            "label": "afl-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nc-sa-4.0",
+            "label": "cc-by-nc-sa-4.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-sa-4.0",
+            "label": "cc-by-sa-4.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nc-4.0",
+            "label": "cc-by-nc-4.0",
+            "type": "license"
+        },
+        {
+            "id": "license:gpl-3.0",
+            "label": "gpl-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:artistic-2.0",
+            "label": "artistic-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc",
+            "label": "cc",
+            "type": "license"
+        },
+        {
+            "id": "license:bsd-3-clause",
+            "label": "bsd-3-clause",
+            "type": "license"
+        },
+        {
+            "id": "license:bigscience-bloom-rail-1.0",
+            "label": "bigscience-bloom-rail-1.0",
+            "type": "license"
+        },
+        {
+            "id": "license:bigscience-openrail-m",
+            "label": "bigscience-openrail-m",
+            "type": "license"
+        },
+        {
+            "id": "license:cc0-1.0",
+            "label": "cc0-1.0",
+            "type": "license"
+        },
+        {
+            "id": "license:wtfpl",
+            "label": "wtfpl",
+            "type": "license"
+        },
+        {
+            "id": "license:agpl-3.0",
+            "label": "agpl-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:unlicense",
+            "label": "unlicense",
+            "type": "license"
+        },
+        {
+            "id": "license:openrail++",
+            "label": "openrail++",
+            "type": "license"
+        },
+        {
+            "id": "license:gpl",
+            "label": "gpl",
+            "type": "license"
+        },
+        {
+            "id": "license:bsl-1.0",
+            "label": "bsl-1.0",
+            "type": "license"
+        },
+        {
+            "id": "license:bsd",
+            "label": "bsd",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-sa-3.0",
+            "label": "cc-by-sa-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:gpl-2.0",
+            "label": "gpl-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:bsd-2-clause",
+            "label": "bsd-2-clause",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-3.0",
+            "label": "cc-by-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-2.0",
+            "label": "cc-by-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nc-3.0",
+            "label": "cc-by-nc-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:lgpl-3.0",
+            "label": "lgpl-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nc-nd-4.0",
+            "label": "cc-by-nc-nd-4.0",
+            "type": "license"
+        },
+        {
+            "id": "license:osl-3.0",
+            "label": "osl-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:lgpl",
+            "label": "lgpl",
+            "type": "license"
+        },
+        {
+            "id": "license:bsd-3-clause-clear",
+            "label": "bsd-3-clause-clear",
+            "type": "license"
+        },
+        {
+            "id": "license:c-uda",
+            "label": "c-uda",
+            "type": "license"
+        },
+        {
+            "id": "license:pddl",
+            "label": "pddl",
+            "type": "license"
+        },
+        {
+            "id": "license:lgpl-lr",
+            "label": "lgpl-lr",
+            "type": "license"
+        },
+        {
+            "id": "license:ecl-2.0",
+            "label": "ecl-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nc-2.0",
+            "label": "cc-by-nc-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nc-sa-3.0",
+            "label": "cc-by-nc-sa-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:gfdl",
+            "label": "gfdl",
+            "type": "license"
+        },
+        {
+            "id": "license:ms-pl",
+            "label": "ms-pl",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nd-4.0",
+            "label": "cc-by-nd-4.0",
+            "type": "license"
+        },
+        {
+            "id": "license:mpl-2.0",
+            "label": "mpl-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nc-sa-2.0",
+            "label": "cc-by-nc-sa-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:zlib",
+            "label": "zlib",
+            "type": "license"
+        },
+        {
+            "id": "license:isc",
+            "label": "isc",
+            "type": "license"
+        },
+        {
+            "id": "license:odc-by",
+            "label": "odc-by",
+            "type": "license"
+        },
+        {
+            "id": "license:odbl",
+            "label": "odbl",
+            "type": "license"
+        },
+        {
+            "id": "license:ncsa",
+            "label": "ncsa",
+            "type": "license"
+        },
+        {
+            "id": "license:epl-2.0",
+            "label": "epl-2.0",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-2.5",
+            "label": "cc-by-2.5",
+            "type": "license"
+        },
+        {
+            "id": "license:epl-1.0",
+            "label": "epl-1.0",
+            "type": "license"
+        },
+        {
+            "id": "license:postgresql",
+            "label": "postgresql",
+            "type": "license"
+        },
+        {
+            "id": "license:ofl-1.1",
+            "label": "ofl-1.1",
+            "type": "license"
+        },
+        {
+            "id": "license:cc-by-nc-nd-3.0",
+            "label": "cc-by-nc-nd-3.0",
+            "type": "license"
+        },
+        {
+            "id": "license:eupl-1.1",
+            "label": "eupl-1.1",
+            "type": "license"
+        },
+        {
+            "id": "license:lgpl-2.1",
+            "label": "lgpl-2.1",
+            "type": "license"
+        },
+        {
+            "id": "license:lppl-1.3c",
+            "label": "lppl-1.3c",
+            "type": "license"
+        }
+    ],
+    "language": [
+        {
+            "id": "en",
+            "label": "en",
+            "type": "language"
+        },
+        {
+            "id": "fr",
+            "label": "fr",
+            "type": "language"
+        },
+        {
+            "id": "es",
+            "label": "es",
+            "type": "language"
+        },
+        {
+            "id": "zh",
+            "label": "zh",
+            "type": "language"
+        },
+        {
+            "id": "de",
+            "label": "de",
+            "type": "language"
+        },
+        {
+            "id": "ja",
+            "label": "ja",
+            "type": "language"
+        },
+        {
+            "id": "ru",
+            "label": "ru",
+            "type": "language"
+        },
+        {
+            "id": "pt",
+            "label": "pt",
+            "type": "language"
+        },
+        {
+            "id": "multilingual",
+            "label": "multilingual",
+            "type": "language"
+        },
+        {
+            "id": "ar",
+            "label": "ar",
+            "type": "language"
+        },
+        {
+            "id": "it",
+            "label": "it",
+            "type": "language"
+        },
+        {
+            "id": "sv",
+            "label": "sv",
+            "type": "language"
+        },
+        {
+            "id": "tr",
+            "label": "tr",
+            "type": "language"
+        },
+        {
+            "id": "hi",
+            "label": "hi",
+            "type": "language"
+        },
+        {
+            "id": "ko",
+            "label": "ko",
+            "type": "language"
+        },
+        {
+            "id": "vi",
+            "label": "vi",
+            "type": "language"
+        },
+        {
+            "id": "fi",
+            "label": "fi",
+            "type": "language"
+        },
+        {
+            "id": "nl",
+            "label": "nl",
+            "type": "language"
+        },
+        {
+            "id": "id",
+            "label": "id",
+            "type": "language"
+        },
+        {
+            "id": "ro",
+            "label": "ro",
+            "type": "language"
+        },
+        {
+            "id": "uk",
+            "label": "uk",
+            "type": "language"
+        },
+        {
+            "id": "pl",
+            "label": "pl",
+            "type": "language"
+        },
+        {
+            "id": "fa",
+            "label": "fa",
+            "type": "language"
+        },
+        {
+            "id": "th",
+            "label": "th",
+            "type": "language"
+        },
+        {
+            "id": "ca",
+            "label": "ca",
+            "type": "language"
+        },
+        {
+            "id": "bn",
+            "label": "bn",
+            "type": "language"
+        },
+        {
+            "id": "da",
+            "label": "da",
+            "type": "language"
+        },
+        {
+            "id": "et",
+            "label": "et",
+            "type": "language"
+        },
+        {
+            "id": "el",
+            "label": "el",
+            "type": "language"
+        },
+        {
+            "id": "ta",
+            "label": "ta",
+            "type": "language"
+        },
+        {
+            "id": "ur",
+            "label": "ur",
+            "type": "language"
+        },
+        {
+            "id": "mr",
+            "label": "mr",
+            "type": "language"
+        },
+        {
+            "id": "sw",
+            "label": "sw",
+            "type": "language"
+        },
+        {
+            "id": "bg",
+            "label": "bg",
+            "type": "language"
+        },
+        {
+            "id": "cs",
+            "label": "cs",
+            "type": "language"
+        },
+        {
+            "id": "hu",
+            "label": "hu",
+            "type": "language"
+        },
+        {
+            "id": "te",
+            "label": "te",
+            "type": "language"
+        },
+        {
+            "id": "is",
+            "label": "is",
+            "type": "language"
+        },
+        {
+            "id": "no",
+            "label": "no",
+            "type": "language"
+        },
+        {
+            "id": "gu",
+            "label": "gu",
+            "type": "language"
+        },
+        {
+            "id": "ml",
+            "label": "ml",
+            "type": "language"
+        },
+        {
+            "id": "sl",
+            "label": "sl",
+            "type": "language"
+        },
+        {
+            "id": "eu",
+            "label": "eu",
+            "type": "language"
+        },
+        {
+            "id": "hr",
+            "label": "hr",
+            "type": "language"
+        },
+        {
+            "id": "pa",
+            "label": "pa",
+            "type": "language"
+        },
+        {
+            "id": "lt",
+            "label": "lt",
+            "type": "language"
+        },
+        {
+            "id": "ne",
+            "label": "ne",
+            "type": "language"
+        },
+        {
+            "id": "kn",
+            "label": "kn",
+            "type": "language"
+        },
+        {
+            "id": "as",
+            "label": "as",
+            "type": "language"
+        },
+        {
+            "id": "he",
+            "label": "he",
+            "type": "language"
+        },
+        {
+            "id": "sr",
+            "label": "sr",
+            "type": "language"
+        },
+        {
+            "id": "af",
+            "label": "af",
+            "type": "language"
+        },
+        {
+            "id": "gl",
+            "label": "gl",
+            "type": "language"
+        },
+        {
+            "id": "lv",
+            "label": "lv",
+            "type": "language"
+        },
+        {
+            "id": "sk",
+            "label": "sk",
+            "type": "language"
+        },
+        {
+            "id": "si",
+            "label": "si",
+            "type": "language"
+        },
+        {
+            "id": "be",
+            "label": "be",
+            "type": "language"
+        },
+        {
+            "id": "cy",
+            "label": "cy",
+            "type": "language"
+        },
+        {
+            "id": "mn",
+            "label": "mn",
+            "type": "language"
+        },
+        {
+            "id": "ms",
+            "label": "ms",
+            "type": "language"
+        },
+        {
+            "id": "mk",
+            "label": "mk",
+            "type": "language"
+        },
+        {
+            "id": "ka",
+            "label": "ka",
+            "type": "language"
+        },
+        {
+            "id": "yo",
+            "label": "yo",
+            "type": "language"
+        },
+        {
+            "id": "or",
+            "label": "or",
+            "type": "language"
+        },
+        {
+            "id": "am",
+            "label": "am",
+            "type": "language"
+        },
+        {
+            "id": "hy",
+            "label": "hy",
+            "type": "language"
+        },
+        {
+            "id": "tl",
+            "label": "tl",
+            "type": "language"
+        },
+        {
+            "id": "eo",
+            "label": "eo",
+            "type": "language"
+        },
+        {
+            "id": "ha",
+            "label": "ha",
+            "type": "language"
+        },
+        {
+            "id": "xh",
+            "label": "xh",
+            "type": "language"
+        },
+        {
+            "id": "az",
+            "label": "az",
+            "type": "language"
+        },
+        {
+            "id": "my",
+            "label": "my",
+            "type": "language"
+        },
+        {
+            "id": "kk",
+            "label": "kk",
+            "type": "language"
+        },
+        {
+            "id": "sq",
+            "label": "sq",
+            "type": "language"
+        },
+        {
+            "id": "uz",
+            "label": "uz",
+            "type": "language"
+        },
+        {
+            "id": "so",
+            "label": "so",
+            "type": "language"
+        },
+        {
+            "id": "ps",
+            "label": "ps",
+            "type": "language"
+        },
+        {
+            "id": "ga",
+            "label": "ga",
+            "type": "language"
+        },
+        {
+            "id": "sn",
+            "label": "sn",
+            "type": "language"
+        },
+        {
+            "id": "ig",
+            "label": "ig",
+            "type": "language"
+        },
+        {
+            "id": "km",
+            "label": "km",
+            "type": "language"
+        },
+        {
+            "id": "la",
+            "label": "la",
+            "type": "language"
+        },
+        {
+            "id": "su",
+            "label": "su",
+            "type": "language"
+        },
+        {
+            "id": "mt",
+            "label": "mt",
+            "type": "language"
+        },
+        {
+            "id": "ht",
+            "label": "ht",
+            "type": "language"
+        },
+        {
+            "id": "br",
+            "label": "br",
+            "type": "language"
+        },
+        {
+            "id": "mg",
+            "label": "mg",
+            "type": "language"
+        },
+        {
+            "id": "ln",
+            "label": "ln",
+            "type": "language"
+        },
+        {
+            "id": "lo",
+            "label": "lo",
+            "type": "language"
+        },
+        {
+            "id": "rw",
+            "label": "rw",
+            "type": "language"
+        },
+        {
+            "id": "jv",
+            "label": "jv",
+            "type": "language"
+        },
+        {
+            "id": "sd",
+            "label": "sd",
+            "type": "language"
+        },
+        {
+            "id": "bs",
+            "label": "bs",
+            "type": "language"
+        },
+        {
+            "id": "yi",
+            "label": "yi",
+            "type": "language"
+        },
+        {
+            "id": "lb",
+            "label": "lb",
+            "type": "language"
+        },
+        {
+            "id": "ky",
+            "label": "ky",
+            "type": "language"
+        },
+        {
+            "id": "nn",
+            "label": "nn",
+            "type": "language"
+        },
+        {
+            "id": "code",
+            "label": "code",
+            "type": "language"
+        },
+        {
+            "id": "zu",
+            "label": "zu",
+            "type": "language"
+        },
+        {
+            "id": "lg",
+            "label": "lg",
+            "type": "language"
+        },
+        {
+            "id": "ny",
+            "label": "ny",
+            "type": "language"
+        },
+        {
+            "id": "gd",
+            "label": "gd",
+            "type": "language"
+        },
+        {
+            "id": "sa",
+            "label": "sa",
+            "type": "language"
+        },
+        {
+            "id": "fy",
+            "label": "fy",
+            "type": "language"
+        },
+        {
+            "id": "st",
+            "label": "st",
+            "type": "language"
+        },
+        {
+            "id": "rn",
+            "label": "rn",
+            "type": "language"
+        },
+        {
+            "id": "nb",
+            "label": "nb",
+            "type": "language"
+        },
+        {
+            "id": "wo",
+            "label": "wo",
+            "type": "language"
+        },
+        {
+            "id": "tg",
+            "label": "tg",
+            "type": "language"
+        },
+        {
+            "id": "tn",
+            "label": "tn",
+            "type": "language"
+        },
+        {
+            "id": "ba",
+            "label": "ba",
+            "type": "language"
+        },
+        {
+            "id": "oc",
+            "label": "oc",
+            "type": "language"
+        },
+        {
+            "id": "tt",
+            "label": "tt",
+            "type": "language"
+        },
+        {
+            "id": "ts",
+            "label": "ts",
+            "type": "language"
+        },
+        {
+            "id": "fo",
+            "label": "fo",
+            "type": "language"
+        },
+        {
+            "id": "ku",
+            "label": "ku",
+            "type": "language"
+        },
+        {
+            "id": "tw",
+            "label": "tw",
+            "type": "language"
+        },
+        {
+            "id": "mi",
+            "label": "mi",
+            "type": "language"
+        },
+        {
+            "id": "ug",
+            "label": "ug",
+            "type": "language"
+        },
+        {
+            "id": "ak",
+            "label": "ak",
+            "type": "language"
+        },
+        {
+            "id": "bm",
+            "label": "bm",
+            "type": "language"
+        },
+        {
+            "id": "bo",
+            "label": "bo",
+            "type": "language"
+        },
+        {
+            "id": "ki",
+            "label": "ki",
+            "type": "language"
+        },
+        {
+            "id": "tk",
+            "label": "tk",
+            "type": "language"
+        },
+        {
+            "id": "om",
+            "label": "om",
+            "type": "language"
+        },
+        {
+            "id": "sm",
+            "label": "sm",
+            "type": "language"
+        },
+        {
+            "id": "ti",
+            "label": "ti",
+            "type": "language"
+        },
+        {
+            "id": "ab",
+            "label": "ab",
+            "type": "language"
+        },
+        {
+            "id": "co",
+            "label": "co",
+            "type": "language"
+        },
+        {
+            "id": "gn",
+            "label": "gn",
+            "type": "language"
+        },
+        {
+            "id": "ee",
+            "label": "ee",
+            "type": "language"
+        },
+        {
+            "id": "an",
+            "label": "an",
+            "type": "language"
+        },
+        {
+            "id": "cv",
+            "label": "cv",
+            "type": "language"
+        },
+        {
+            "id": "aa",
+            "label": "aa",
+            "type": "language"
+        },
+        {
+            "id": "sg",
+            "label": "sg",
+            "type": "language"
+        },
+        {
+            "id": "dv",
+            "label": "dv",
+            "type": "language"
+        },
+        {
+            "id": "iw",
+            "label": "iw",
+            "type": "language"
+        },
+        {
+            "id": "rm",
+            "label": "rm",
+            "type": "language"
+        },
+        {
+            "id": "jw",
+            "label": "jw",
+            "type": "language"
+        },
+        {
+            "id": "fj",
+            "label": "fj",
+            "type": "language"
+        },
+        {
+            "id": "kg",
+            "label": "kg",
+            "type": "language"
+        },
+        {
+            "id": "ss",
+            "label": "ss",
+            "type": "language"
+        },
+        {
+            "id": "ce",
+            "label": "ce",
+            "type": "language"
+        },
+        {
+            "id": "sc",
+            "label": "sc",
+            "type": "language"
+        },
+        {
+            "id": "gv",
+            "label": "gv",
+            "type": "language"
+        },
+        {
+            "id": "sh",
+            "label": "sh",
+            "type": "language"
+        },
+        {
+            "id": "to",
+            "label": "to",
+            "type": "language"
+        },
+        {
+            "id": "io",
+            "label": "io",
+            "type": "language"
+        },
+        {
+            "id": "li",
+            "label": "li",
+            "type": "language"
+        },
+        {
+            "id": "ty",
+            "label": "ty",
+            "type": "language"
+        },
+        {
+            "id": "wa",
+            "label": "wa",
+            "type": "language"
+        },
+        {
+            "id": "ia",
+            "label": "ia",
+            "type": "language"
+        },
+        {
+            "id": "lm",
+            "label": "lm",
+            "type": "language"
+        },
+        {
+            "id": "bi",
+            "label": "bi",
+            "type": "language"
+        },
+        {
+            "id": "dz",
+            "label": "dz",
+            "type": "language"
+        },
+        {
+            "id": "os",
+            "label": "os",
+            "type": "language"
+        },
+        {
+            "id": "ch",
+            "label": "ch",
+            "type": "language"
+        },
+        {
+            "id": "mh",
+            "label": "mh",
+            "type": "language"
+        },
+        {
+            "id": "se",
+            "label": "se",
+            "type": "language"
+        },
+        {
+            "id": "jp",
+            "label": "jp",
+            "type": "language"
+        },
+        {
+            "id": "dk",
+            "label": "dk",
+            "type": "language"
+        },
+        {
+            "id": "vo",
+            "label": "vo",
+            "type": "language"
+        },
+        {
+            "id": "qu",
+            "label": "qu",
+            "type": "language"
+        },
+        {
+            "id": "lu",
+            "label": "lu",
+            "type": "language"
+        },
+        {
+            "id": "ud",
+            "label": "ud",
+            "type": "language"
+        },
+        {
+            "id": "ks",
+            "label": "ks",
+            "type": "language"
+        },
+        {
+            "id": "ma",
+            "label": "ma",
+            "type": "language"
+        },
+        {
+            "id": "kw",
+            "label": "kw",
+            "type": "language"
+        },
+        {
+            "id": "kr",
+            "label": "kr",
+            "type": "language"
+        },
+        {
+            "id": "ff",
+            "label": "ff",
+            "type": "language"
+        },
+        {
+            "id": "in",
+            "label": "in",
+            "type": "language"
+        },
+        {
+            "id": "vn",
+            "label": "vn",
+            "type": "language"
+        },
+        {
+            "id": "ho",
+            "label": "ho",
+            "type": "language"
+        },
+        {
+            "id": "gr",
+            "label": "gr",
+            "type": "language"
+        },
+        {
+            "id": "ae",
+            "label": "ae",
+            "type": "language"
+        },
+        {
+            "id": "ns",
+            "label": "ns",
+            "type": "language"
+        },
+        {
+            "id": "po",
+            "label": "po",
+            "type": "language"
+        },
+        {
+            "id": "bu",
+            "label": "bu",
+            "type": "language"
+        },
+        {
+            "id": "tu",
+            "label": "tu",
+            "type": "language"
+        },
+        {
+            "id": "cz",
+            "label": "cz",
+            "type": "language"
+        },
+        {
+            "id": "ve",
+            "label": "ve",
+            "type": "language"
+        },
+        {
+            "id": "py",
+            "label": "py",
+            "type": "language"
+        },
+        {
+            "id": "ge",
+            "label": "ge",
+            "type": "language"
+        },
+        {
+            "id": "bh",
+            "label": "bh",
+            "type": "language"
+        },
+        {
+            "id": "na",
+            "label": "na",
+            "type": "language"
+        },
+        {
+            "id": "sp",
+            "label": "sp",
+            "type": "language"
+        },
+        {
+            "id": "av",
+            "label": "av",
+            "type": "language"
+        },
+        {
+            "id": "tc",
+            "label": "tc",
+            "type": "language"
+        },
+        {
+            "id": "kl",
+            "label": "kl",
+            "type": "language"
+        },
+        {
+            "id": "nv",
+            "label": "nv",
+            "type": "language"
+        },
+        {
+            "id": "kb",
+            "label": "kb",
+            "type": "language"
+        },
+        {
+            "id": "tp",
+            "label": "tp",
+            "type": "language"
+        },
+        {
+            "id": "pe",
+            "label": "pe",
+            "type": "language"
+        },
+        {
+            "id": "du",
+            "label": "du",
+            "type": "language"
+        },
+        {
+            "id": "cr",
+            "label": "cr",
+            "type": "language"
+        },
+        {
+            "id": "pr",
+            "label": "pr",
+            "type": "language"
+        },
+        {
+            "id": "ng",
+            "label": "ng",
+            "type": "language"
+        },
+        {
+            "id": "ay",
+            "label": "ay",
+            "type": "language"
+        },
+        {
+            "id": "al",
+            "label": "al",
+            "type": "language"
+        },
+        {
+            "id": "kj",
+            "label": "kj",
+            "type": "language"
+        },
+        {
+            "id": "cu",
+            "label": "cu",
+            "type": "language"
+        },
+        {
+            "id": "hk",
+            "label": "hk",
+            "type": "language"
+        },
+        {
+            "id": "ly",
+            "label": "ly",
+            "type": "language"
+        },
+        {
+            "id": "ot",
+            "label": "ot",
+            "type": "language"
+        },
+        {
+            "id": "qm",
+            "label": "qm",
+            "type": "language"
+        },
+        {
+            "id": "kz",
+            "label": "kz",
+            "type": "language"
+        },
+        {
+            "id": "ie",
+            "label": "ie",
+            "type": "language"
+        },
+        {
+            "id": "kv",
+            "label": "kv",
+            "type": "language"
+        },
+        {
+            "id": "me",
+            "label": "me",
+            "type": "language"
+        },
+        {
+            "id": "jb",
+            "label": "jb",
+            "type": "language"
+        },
+        {
+            "id": "hn",
+            "label": "hn",
+            "type": "language"
+        },
+        {
+            "id": "nr",
+            "label": "nr",
+            "type": "language"
+        },
+        {
+            "id": "ai",
+            "label": "ai",
+            "type": "language"
+        },
+        {
+            "id": "cn",
+            "label": "cn",
+            "type": "language"
+        }
+    ],
+    "dataset": [
+        {
+            "id": "dataset:mozilla-foundation/common_voice_7_0",
+            "label": "mozilla-foundation/common_voice_7_0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:glue",
+            "label": "glue",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:squad",
+            "label": "squad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:common_voice",
+            "label": "common_voice",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wikipedia",
+            "label": "wikipedia",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mozilla-foundation/common_voice_11_0",
+            "label": "mozilla-foundation/common_voice_11_0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:imdb",
+            "label": "imdb",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:xtreme",
+            "label": "xtreme",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:imagenet-1k",
+            "label": "imagenet-1k",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:conll2003",
+            "label": "conll2003",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:bookcorpus",
+            "label": "bookcorpus",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:c4",
+            "label": "c4",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:squad_v2",
+            "label": "squad_v2",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:huggan/smithsonian_butterflies_subset",
+            "label": "huggan/smithsonian_butterflies_subset",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cnn_dailymail",
+            "label": "cnn_dailymail",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:samsum",
+            "label": "samsum",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:universal_dependencies",
+            "label": "universal_dependencies",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:librispeech_asr",
+            "label": "librispeech_asr",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:xsum",
+            "label": "xsum",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:clinc_oos",
+            "label": "clinc_oos",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mozilla-foundation/common_voice_8_0",
+            "label": "mozilla-foundation/common_voice_8_0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wmt16",
+            "label": "wmt16",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:oscar",
+            "label": "oscar",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tweet_eval",
+            "label": "tweet_eval",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:relbert/semeval2012_relational_similarity",
+            "label": "relbert/semeval2012_relational_similarity",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:amazon_reviews_multi",
+            "label": "amazon_reviews_multi",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:google/fleurs",
+            "label": "google/fleurs",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sst2",
+            "label": "sst2",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:fka/awesome-chatgpt-prompts",
+            "label": "fka/awesome-chatgpt-prompts",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:multi_nli",
+            "label": "multi_nli",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:superb",
+            "label": "superb",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:esb/datasets",
+            "label": "esb/datasets",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:beans",
+            "label": "beans",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mc4",
+            "label": "mc4",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cc100",
+            "label": "cc100",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:kde4",
+            "label": "kde4",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:allenai/nllb",
+            "label": "allenai/nllb",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_squad",
+            "label": "lmqg/qg_squad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:snli",
+            "label": "snli",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wikiann",
+            "label": "wikiann",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wnut_17",
+            "label": "wnut_17",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:kejian/codeparrot-train-more-filter-3.3b-cleaned",
+            "label": "kejian/codeparrot-train-more-filter-3.3b-cleaned",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_subjqa",
+            "label": "lmqg/qg_subjqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:stsb_multi_mt",
+            "label": "stsb_multi_mt",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tatsu-lab/alpaca",
+            "label": "tatsu-lab/alpaca",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:xnli",
+            "label": "xnli",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tner/tweetner7",
+            "label": "tner/tweetner7",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:billsum",
+            "label": "billsum",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:masakhaner",
+            "label": "masakhaner",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:eli5",
+            "label": "eli5",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:assin2",
+            "label": "assin2",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:assin",
+            "label": "assin",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:yelp_review_full",
+            "label": "yelp_review_full",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_squadshifts",
+            "label": "lmqg/qg_squadshifts",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ms_marco",
+            "label": "ms_marco",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:natural_questions",
+            "label": "natural_questions",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:klue",
+            "label": "klue",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:scientific_papers",
+            "label": "scientific_papers",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cifar10",
+            "label": "cifar10",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mlsum",
+            "label": "mlsum",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:detection-datasets/coco",
+            "label": "detection-datasets/coco",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:Gustavosta/Stable-Diffusion-Prompts",
+            "label": "Gustavosta/Stable-Diffusion-Prompts",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:yhavinga/mc4_nl_cleaned",
+            "label": "yhavinga/mc4_nl_cleaned",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:go_emotions",
+            "label": "go_emotions",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:scene_parse_150",
+            "label": "scene_parse_150",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:race",
+            "label": "race",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:vctk",
+            "label": "vctk",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:food101",
+            "label": "food101",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mrqa",
+            "label": "mrqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:covost2",
+            "label": "covost2",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:openslr",
+            "label": "openslr",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wikitext",
+            "label": "wikitext",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_ruquad",
+            "label": "lmqg/qg_ruquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_jaquad",
+            "label": "lmqg/qg_jaquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:pubmed",
+            "label": "pubmed",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_esquad",
+            "label": "lmqg/qg_esquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:code_search_net",
+            "label": "code_search_net",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wikisql",
+            "label": "wikisql",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mozilla-foundation/common_voice_9_0",
+            "label": "mozilla-foundation/common_voice_9_0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_itquad",
+            "label": "lmqg/qg_itquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:banking77",
+            "label": "banking77",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_koquad",
+            "label": "lmqg/qg_koquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ncbi_disease",
+            "label": "ncbi_disease",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:kmfoda/booksum",
+            "label": "kmfoda/booksum",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:swag",
+            "label": "swag",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:rotten_tomatoes",
+            "label": "rotten_tomatoes",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:opus_books",
+            "label": "opus_books",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:openwebtext",
+            "label": "openwebtext",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:yahoo_answers_topics",
+            "label": "yahoo_answers_topics",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wikihow",
+            "label": "wikihow",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:fever",
+            "label": "fever",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:openai/webgpt_comparisons",
+            "label": "openai/webgpt_comparisons",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:facebook/multilingual_librispeech",
+            "label": "facebook/multilingual_librispeech",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:squad_es",
+            "label": "squad_es",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:german-nlp-group/german_common_crawl",
+            "label": "german-nlp-group/german_common_crawl",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:trivia_qa",
+            "label": "trivia_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:multilingual_librispeech",
+            "label": "multilingual_librispeech",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:Anthropic/hh-rlhf",
+            "label": "Anthropic/hh-rlhf",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:Finnish-NLP/mc4_fi_cleaned",
+            "label": "Finnish-NLP/mc4_fi_cleaned",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:flax-sentence-embeddings/stackexchange_xml",
+            "label": "flax-sentence-embeddings/stackexchange_xml",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki_lingua",
+            "label": "wiki_lingua",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:stjiris/portuguese-legal-sentences-v0",
+            "label": "stjiris/portuguese-legal-sentences-v0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:embedding-data/sentence-compression",
+            "label": "embedding-data/sentence-compression",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:financial_phrasebank",
+            "label": "financial_phrasebank",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:multi_news",
+            "label": "multi_news",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:anli",
+            "label": "anli",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:unicamp-dl/mmarco",
+            "label": "unicamp-dl/mmarco",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:NbAiLab/NPSC",
+            "label": "NbAiLab/NPSC",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mozilla-foundation/common_voice_10_0",
+            "label": "mozilla-foundation/common_voice_10_0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tydiqa",
+            "label": "tydiqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:timit_asr",
+            "label": "timit_asr",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:opus100",
+            "label": "opus100",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:bigscience/P3",
+            "label": "bigscience/P3",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ag_news",
+            "label": "ag_news",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:yahma/alpaca-cleaned",
+            "label": "yahma/alpaca-cleaned",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:competitions/aiornot",
+            "label": "competitions/aiornot",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ami",
+            "label": "ami",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wmt19",
+            "label": "wmt19",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:Nerfgun3/bad_prompt",
+            "label": "Nerfgun3/bad_prompt",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:gsdf/EasyNegative",
+            "label": "gsdf/EasyNegative",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cppe-5",
+            "label": "cppe-5",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:gsarti/change_it",
+            "label": "gsarti/change_it",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cuad",
+            "label": "cuad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:EleutherAI/the_pile_deduplicated",
+            "label": "EleutherAI/the_pile_deduplicated",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:amazon_polarity",
+            "label": "amazon_polarity",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:facebook/voxpopuli",
+            "label": "facebook/voxpopuli",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:open_subtitles",
+            "label": "open_subtitles",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wmt14",
+            "label": "wmt14",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:Yaxin/SemEval2014Task4Raw",
+            "label": "Yaxin/SemEval2014Task4Raw",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:embedding-data/altlex",
+            "label": "embedding-data/altlex",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:embedding-data/simple-wiki",
+            "label": "embedding-data/simple-wiki",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:gigaword",
+            "label": "gigaword",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:eugenesiow/Div2k",
+            "label": "eugenesiow/Div2k",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:eugenesiow/Set5",
+            "label": "eugenesiow/Set5",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:eugenesiow/Set14",
+            "label": "eugenesiow/Set14",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:eugenesiow/BSD100",
+            "label": "eugenesiow/BSD100",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:eugenesiow/Urban100",
+            "label": "eugenesiow/Urban100",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tals/vitaminc",
+            "label": "tals/vitaminc",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ConvLab/multiwoz21",
+            "label": "ConvLab/multiwoz21",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:bc2gm_corpus",
+            "label": "bc2gm_corpus",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:embedding-data/WikiAnswers",
+            "label": "embedding-data/WikiAnswers",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:gsm8k",
+            "label": "gsm8k",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:esnli",
+            "label": "esnli",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wikitablequestions",
+            "label": "wikitablequestions",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:JosephusCheung/GuanacoDataset",
+            "label": "JosephusCheung/GuanacoDataset",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:covid_qa_deepset",
+            "label": "covid_qa_deepset",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:relbert/relational_similarity",
+            "label": "relbert/relational_similarity",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:gooaq",
+            "label": "gooaq",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:search_qa",
+            "label": "search_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:embedding-data/PAQ_pairs",
+            "label": "embedding-data/PAQ_pairs",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:blended_skill_talk",
+            "label": "blended_skill_talk",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:bigscience/xP3",
+            "label": "bigscience/xP3",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:xquad",
+            "label": "xquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:large_spanish_corpus",
+            "label": "large_spanish_corpus",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:conll2002",
+            "label": "conll2002",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cardiffnlp/tweet_topic_multi",
+            "label": "cardiffnlp/tweet_topic_multi",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:squad_it",
+            "label": "squad_it",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:stanfordnlp/SHP",
+            "label": "stanfordnlp/SHP",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cifar100",
+            "label": "cifar100",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tner/bc5cdr",
+            "label": "tner/bc5cdr",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:AmazonScience/massive",
+            "label": "AmazonScience/massive",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:super_glue",
+            "label": "super_glue",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:openai/summarize_from_feedback",
+            "label": "openai/summarize_from_feedback",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:Hello-SimpleAI/HC3",
+            "label": "Hello-SimpleAI/HC3",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:nli_tr",
+            "label": "nli_tr",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mnist",
+            "label": "mnist",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:segments/sidewalk-semantic",
+            "label": "segments/sidewalk-semantic",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cardiffnlp/tweet_topic_single",
+            "label": "cardiffnlp/tweet_topic_single",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:rufimelo/PortugueseLegalSentences-v0",
+            "label": "rufimelo/PortugueseLegalSentences-v0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mozilla-foundation/common_voice_12_0",
+            "label": "mozilla-foundation/common_voice_12_0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:frgfm/imagenette",
+            "label": "frgfm/imagenette",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mozilla-foundation/common_voice_6_0",
+            "label": "mozilla-foundation/common_voice_6_0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lambada",
+            "label": "lambada",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:aqua_rat",
+            "label": "aqua_rat",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:LIUM/tedlium",
+            "label": "LIUM/tedlium",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:jfleg",
+            "label": "jfleg",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:jnlpba",
+            "label": "jnlpba",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:IlyaGusev/ru_turbo_alpaca",
+            "label": "IlyaGusev/ru_turbo_alpaca",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lmqg/qg_dequad",
+            "label": "lmqg/qg_dequad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:adversarial_qa",
+            "label": "adversarial_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:stereoset",
+            "label": "stereoset",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:quoref",
+            "label": "quoref",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:caner",
+            "label": "caner",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:speechcolab/gigaspeech",
+            "label": "speechcolab/gigaspeech",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:embedding-data/SPECTER",
+            "label": "embedding-data/SPECTER",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:yelp_polarity",
+            "label": "yelp_polarity",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:trec",
+            "label": "trec",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lener_br",
+            "label": "lener_br",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:deepset/germanquad",
+            "label": "deepset/germanquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:big_patent",
+            "label": "big_patent",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:duorc",
+            "label": "duorc",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:paws",
+            "label": "paws",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:quora",
+            "label": "quora",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:commanderstrife/jnlpba",
+            "label": "commanderstrife/jnlpba",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:drAbreu/bc4chemd_ner",
+            "label": "drAbreu/bc4chemd_ner",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:linnaeus",
+            "label": "linnaeus",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:chintagunta85/ncbi_disease",
+            "label": "chintagunta85/ncbi_disease",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:dbrd",
+            "label": "dbrd",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:spider",
+            "label": "spider",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cosmos_qa",
+            "label": "cosmos_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lex_glue",
+            "label": "lex_glue",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:poem_sentiment",
+            "label": "poem_sentiment",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:commonsense_qa",
+            "label": "commonsense_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:circa",
+            "label": "circa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:pubmed_qa",
+            "label": "pubmed_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:arabic_billion_words",
+            "label": "arabic_billion_words",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:common_language",
+            "label": "common_language",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mlqa",
+            "label": "mlqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:subjqa",
+            "label": "subjqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:quartz",
+            "label": "quartz",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:quail",
+            "label": "quail",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:math_qa",
+            "label": "math_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:silicone",
+            "label": "silicone",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sms_spam",
+            "label": "sms_spam",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki_qa",
+            "label": "wiki_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:conceptual_captions",
+            "label": "conceptual_captions",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tatoeba",
+            "label": "tatoeba",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lince",
+            "label": "lince",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tapaco",
+            "label": "tapaco",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tab_fact",
+            "label": "tab_fact",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:crows_pairs",
+            "label": "crows_pairs",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:conllpp",
+            "label": "conllpp",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:amazon_us_reviews",
+            "label": "amazon_us_reviews",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:opus_infopankki",
+            "label": "opus_infopankki",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:taskmaster2",
+            "label": "taskmaster2",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:qed",
+            "label": "qed",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ade_corpus_v2",
+            "label": "ade_corpus_v2",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:openbookqa",
+            "label": "openbookqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:social_i_qa",
+            "label": "social_i_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hellaswag",
+            "label": "hellaswag",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:emo",
+            "label": "emo",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:squad_v1_pt",
+            "label": "squad_v1_pt",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:fquad",
+            "label": "fquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hotpot_qa",
+            "label": "hotpot_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:aeslc",
+            "label": "aeslc",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sentiment140",
+            "label": "sentiment140",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:consumer-finance-complaints",
+            "label": "consumer-finance-complaints",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:web_questions",
+            "label": "web_questions",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:arabic_speech_corpus",
+            "label": "arabic_speech_corpus",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:scitail",
+            "label": "scitail",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:dream",
+            "label": "dream",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:art",
+            "label": "art",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:winogrande",
+            "label": "winogrande",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:health_fact",
+            "label": "health_fact",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:vivos",
+            "label": "vivos",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:msr_sqa",
+            "label": "msr_sqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:germeval_14",
+            "label": "germeval_14",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cats_vs_dogs",
+            "label": "cats_vs_dogs",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:paws-x",
+            "label": "paws-x",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:news_commentary",
+            "label": "news_commentary",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:pn_summary",
+            "label": "pn_summary",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:un_multi",
+            "label": "un_multi",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:common_gen",
+            "label": "common_gen",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:nq_open",
+            "label": "nq_open",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:multi_nli_mismatch",
+            "label": "multi_nli_mismatch",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sick",
+            "label": "sick",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:snips_built_in_intents",
+            "label": "snips_built_in_intents",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hate_speech_offensive",
+            "label": "hate_speech_offensive",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tweets_hate_speech_detection",
+            "label": "tweets_hate_speech_detection",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:visual_genome",
+            "label": "visual_genome",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:allocine",
+            "label": "allocine",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:boolq",
+            "label": "boolq",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:speech_commands",
+            "label": "speech_commands",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:svhn",
+            "label": "svhn",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:dutch_social",
+            "label": "dutch_social",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:winograd_wsc",
+            "label": "winograd_wsc",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:newsqa",
+            "label": "newsqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:drop",
+            "label": "drop",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:fake_news_english",
+            "label": "fake_news_english",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lst20",
+            "label": "lst20",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cc_news",
+            "label": "cc_news",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki_atomic_edits",
+            "label": "wiki_atomic_edits",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:medical_questions_pairs",
+            "label": "medical_questions_pairs",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cos_e",
+            "label": "cos_e",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:qasc",
+            "label": "qasc",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sciq",
+            "label": "sciq",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:piqa",
+            "label": "piqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ai2_arc",
+            "label": "ai2_arc",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:discovery",
+            "label": "discovery",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:dbpedia_14",
+            "label": "dbpedia_14",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hate_speech18",
+            "label": "hate_speech18",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:google_wellformed_query",
+            "label": "google_wellformed_query",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:acronym_identification",
+            "label": "acronym_identification",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:species_800",
+            "label": "species_800",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:quarel",
+            "label": "quarel",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:medmcqa",
+            "label": "medmcqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sbu_captions",
+            "label": "sbu_captions",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wisesight_sentiment",
+            "label": "wisesight_sentiment",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:muchocine",
+            "label": "muchocine",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:gem",
+            "label": "gem",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:bible_para",
+            "label": "bible_para",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:harem",
+            "label": "harem",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:bigscience/xP3mt",
+            "label": "bigscience/xP3mt",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:jigsaw_toxicity_pred",
+            "label": "jigsaw_toxicity_pred",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki_dpr",
+            "label": "wiki_dpr",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:conll2000",
+            "label": "conll2000",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hans",
+            "label": "hans",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hlgd",
+            "label": "hlgd",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:truthful_qa",
+            "label": "truthful_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:blimp",
+            "label": "blimp",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:head_qa",
+            "label": "head_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki_hop",
+            "label": "wiki_hop",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiqa",
+            "label": "wiqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:codah",
+            "label": "codah",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:definite_pronoun_resolution",
+            "label": "definite_pronoun_resolution",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hope_edi",
+            "label": "hope_edi",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ethos",
+            "label": "ethos",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:pragmeval",
+            "label": "pragmeval",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:app_reviews",
+            "label": "app_reviews",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:humicroedit",
+            "label": "humicroedit",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:liar",
+            "label": "liar",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:has_part",
+            "label": "has_part",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:blog_authorship_corpus",
+            "label": "blog_authorship_corpus",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mc_taco",
+            "label": "mc_taco",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:numer_sense",
+            "label": "numer_sense",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sem_eval_2010_task_8",
+            "label": "sem_eval_2010_task_8",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:onestop_qa",
+            "label": "onestop_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:multi_woz_v22",
+            "label": "multi_woz_v22",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:squad_kor_v1",
+            "label": "squad_kor_v1",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:indonli",
+            "label": "indonli",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mozilla-foundation/common_voice_6_1",
+            "label": "mozilla-foundation/common_voice_6_1",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sberquad",
+            "label": "sberquad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:docred",
+            "label": "docred",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:gap",
+            "label": "gap",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:narrativeqa",
+            "label": "narrativeqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:nsmc",
+            "label": "nsmc",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cmrc2018",
+            "label": "cmrc2018",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wmt20_mlqe_task1",
+            "label": "wmt20_mlqe_task1",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:arcd",
+            "label": "arcd",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:openai_humaneval",
+            "label": "openai_humaneval",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:dane",
+            "label": "dane",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:rvl_cdip",
+            "label": "rvl_cdip",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:arxiv_dataset",
+            "label": "arxiv_dataset",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:id_newspapers_2018",
+            "label": "id_newspapers_2018",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:iapp_wiki_qa_squad",
+            "label": "iapp_wiki_qa_squad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:coqa",
+            "label": "coqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wongnai_reviews",
+            "label": "wongnai_reviews",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:id_liputan6",
+            "label": "id_liputan6",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki_split",
+            "label": "wiki_split",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:kilt_tasks",
+            "label": "kilt_tasks",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:jigsaw_unintended_bias",
+            "label": "jigsaw_unintended_bias",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:blbooksgenre",
+            "label": "blbooksgenre",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:iwslt2017",
+            "label": "iwslt2017",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:germaner",
+            "label": "germaner",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tiny_shakespeare",
+            "label": "tiny_shakespeare",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:srwac",
+            "label": "srwac",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hrwac",
+            "label": "hrwac",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:reddit",
+            "label": "reddit",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:xglue",
+            "label": "xglue",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wili_2018",
+            "label": "wili_2018",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:para_crawl",
+            "label": "para_crawl",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:pib",
+            "label": "pib",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mt_eng_vietnamese",
+            "label": "mt_eng_vietnamese",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:id_clickbait",
+            "label": "id_clickbait",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:quickdraw",
+            "label": "quickdraw",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hatexplain",
+            "label": "hatexplain",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:textvqa",
+            "label": "textvqa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:norne",
+            "label": "norne",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lccc",
+            "label": "lccc",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:kd_conv",
+            "label": "kd_conv",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:monash_tsf",
+            "label": "monash_tsf",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:generated_reviews_enth",
+            "label": "generated_reviews_enth",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki40b",
+            "label": "wiki40b",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:conceptual_12m",
+            "label": "conceptual_12m",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:gnad10",
+            "label": "gnad10",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:thaisum",
+            "label": "thaisum",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:scb_mt_enth_2020",
+            "label": "scb_mt_enth_2020",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:orange_sum",
+            "label": "orange_sum",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki_auto",
+            "label": "wiki_auto",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:reddit_tifu",
+            "label": "reddit_tifu",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:break_data",
+            "label": "break_data",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:daily_dialog",
+            "label": "daily_dialog",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:catalonia_independence",
+            "label": "catalonia_independence",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:code_x_glue_ct_code_to_text",
+            "label": "code_x_glue_ct_code_to_text",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:com_qa",
+            "label": "com_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tamilmixsentiment",
+            "label": "tamilmixsentiment",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:competition_math",
+            "label": "competition_math",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:scielo",
+            "label": "scielo",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:thaiqa_squad",
+            "label": "thaiqa_squad",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ted_talks_iwslt",
+            "label": "ted_talks_iwslt",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:setimes",
+            "label": "setimes",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:eli5_category",
+            "label": "eli5_category",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mbpp",
+            "label": "mbpp",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cedr",
+            "label": "cedr",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:opus_wikipedia",
+            "label": "opus_wikipedia",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:brwac",
+            "label": "brwac",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:fashion_mnist",
+            "label": "fashion_mnist",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:flue",
+            "label": "flue",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:event2Mind",
+            "label": "event2Mind",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:totto",
+            "label": "totto",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cornell_movie_dialog",
+            "label": "cornell_movie_dialog",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:discofuse",
+            "label": "discofuse",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ronec",
+            "label": "ronec",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:kor_nlu",
+            "label": "kor_nlu",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:climate_fever",
+            "label": "climate_fever",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:emotone_ar",
+            "label": "emotone_ar",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:kor_3i4k",
+            "label": "kor_3i4k",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:kor_hate",
+            "label": "kor_hate",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:conll2012_ontonotesv5",
+            "label": "conll2012_ontonotesv5",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:bigbench",
+            "label": "bigbench",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:prachathai67k",
+            "label": "prachathai67k",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:thai_toxicity_tweet",
+            "label": "thai_toxicity_tweet",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:conv_ai_2",
+            "label": "conv_ai_2",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:newsph_nli",
+            "label": "newsph_nli",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sem_eval_2018_task_1",
+            "label": "sem_eval_2018_task_1",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hybrid_qa",
+            "label": "hybrid_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:hyperpartisan_news_detection",
+            "label": "hyperpartisan_news_detection",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:tweet_qa",
+            "label": "tweet_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ted_iwlst2013",
+            "label": "ted_iwlst2013",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:best2009",
+            "label": "best2009",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:parsinlu_reading_comprehension",
+            "label": "parsinlu_reading_comprehension",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:red_caps",
+            "label": "red_caps",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:makhzan",
+            "label": "makhzan",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:clue",
+            "label": "clue",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:labr",
+            "label": "labr",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:sede",
+            "label": "sede",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:cmu_hinglish_dog",
+            "label": "cmu_hinglish_dog",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:crd3",
+            "label": "crd3",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:peoples_daily_ner",
+            "label": "peoples_daily_ner",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:mozilla-foundation/common_voice_3_0",
+            "label": "mozilla-foundation/common_voice_3_0",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:aslg_pc12",
+            "label": "aslg_pc12",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:snow_simplified_japanese_corpus",
+            "label": "snow_simplified_japanese_corpus",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:id_panl_bppt",
+            "label": "id_panl_bppt",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:web_nlg",
+            "label": "web_nlg",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:disfl_qa",
+            "label": "disfl_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:yahoo_answers_qa",
+            "label": "yahoo_answers_qa",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:turkic_xwmt",
+            "label": "turkic_xwmt",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:newsgroup",
+            "label": "newsgroup",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:eurlex",
+            "label": "eurlex",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:reclor",
+            "label": "reclor",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:swahili_news",
+            "label": "swahili_news",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:opus_dgt",
+            "label": "opus_dgt",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:lj_speech",
+            "label": "lj_speech",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:medical_dialog",
+            "label": "medical_dialog",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:spanish_billion_words",
+            "label": "spanish_billion_words",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:opus_euconst",
+            "label": "opus_euconst",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:ubuntu_dialogs_corpus",
+            "label": "ubuntu_dialogs_corpus",
+            "type": "dataset"
+        },
+        {
+            "id": "dataset:wiki_bio",
+            "label": "wiki_bio",
+            "type": "dataset"
+        }
+    ],
+    "pipeline_tag": [
+        {
+            "id": "text-classification",
+            "label": "Text Classification",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "token-classification",
+            "label": "Token Classification",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "table-question-answering",
+            "label": "Table Question Answering",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "question-answering",
+            "label": "Question Answering",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "zero-shot-classification",
+            "label": "Zero-Shot Classification",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "translation",
+            "label": "Translation",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "summarization",
+            "label": "Summarization",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "conversational",
+            "label": "Conversational",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "feature-extraction",
+            "label": "Feature Extraction",
+            "subType": "multimodal",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "text-generation",
+            "label": "Text Generation",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "text2text-generation",
+            "label": "Text2Text Generation",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "fill-mask",
+            "label": "Fill-Mask",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "sentence-similarity",
+            "label": "Sentence Similarity",
+            "subType": "nlp",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "text-to-speech",
+            "label": "Text-to-Speech",
+            "subType": "audio",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "automatic-speech-recognition",
+            "label": "Automatic Speech Recognition",
+            "subType": "audio",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "audio-to-audio",
+            "label": "Audio-to-Audio",
+            "subType": "audio",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "audio-classification",
+            "label": "Audio Classification",
+            "subType": "audio",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "voice-activity-detection",
+            "label": "Voice Activity Detection",
+            "subType": "audio",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "depth-estimation",
+            "label": "Depth Estimation",
+            "subType": "cv",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "image-classification",
+            "label": "Image Classification",
+            "subType": "cv",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "object-detection",
+            "label": "Object Detection",
+            "subType": "cv",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "image-segmentation",
+            "label": "Image Segmentation",
+            "subType": "cv",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "text-to-image",
+            "label": "Text-to-Image",
+            "subType": "multimodal",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "image-to-text",
+            "label": "Image-to-Text",
+            "subType": "multimodal",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "image-to-image",
+            "label": "Image-to-Image",
+            "subType": "cv",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "unconditional-image-generation",
+            "label": "Unconditional Image Generation",
+            "subType": "cv",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "video-classification",
+            "label": "Video Classification",
+            "subType": "cv",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "reinforcement-learning",
+            "label": "Reinforcement Learning",
+            "subType": "rl",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "robotics",
+            "label": "Robotics",
+            "subType": "rl",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "tabular-classification",
+            "label": "Tabular Classification",
+            "subType": "tabular",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "tabular-regression",
+            "label": "Tabular Regression",
+            "subType": "tabular",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "text-to-video",
+            "label": "Text-to-Video",
+            "subType": "multimodal",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "visual-question-answering",
+            "label": "Visual Question Answering",
+            "subType": "multimodal",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "document-question-answering",
+            "label": "Document Question Answering",
+            "subType": "multimodal",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "zero-shot-image-classification",
+            "label": "Zero-Shot Image Classification",
+            "subType": "cv",
+            "type": "pipeline_tag"
+        },
+        {
+            "id": "graph-ml",
+            "label": "Graph Machine Learning",
+            "subType": "multimodal",
+            "type": "pipeline_tag"
+        }
+    ]
+}
